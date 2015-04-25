@@ -60,6 +60,8 @@ let g:mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+" Fast quiting
+nmap `` ZZ
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
@@ -91,6 +93,9 @@ endif
 
 "Always show current position
 set ruler
+
+"Always show line number
+set number 
 
 " Height of the command bar
 set cmdheight=2
@@ -147,7 +152,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme jellybeans
 catch
 endtry
 
