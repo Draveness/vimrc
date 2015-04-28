@@ -54,3 +54,8 @@ endfunction
 au FileType coffee call CoffeeScriptFold()
 
 au FileType gitcommit call setpos('.', [0, 1, 1, 0])
+
+""""""""""""""""""""""""""""""
+" => Handlebar section
+""""""""""""""""""""""""""""""
+au BufNewFile,BufRead *.handlebars set file type=html
